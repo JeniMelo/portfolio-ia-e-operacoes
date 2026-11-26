@@ -17,13 +17,13 @@ Meu objetivo é conectar necessidades reais dos negócios a soluções práticas
 
 ## Projetos
 
-### 01 — Edição de vídeo e imagem com Claude Code
+### 01 — Sistema inteligente de criação e edição audiovisual
 
-Solução voltada à edição de conteúdo audiovisual com apoio de IA.
+Um sistema inteligente de criação e edição audiovisual, desenvolvido para se adaptar a diferentes nichos, formatos de conteúdo e necessidades. A proposta é permitir que cada pessoa defina o que deseja criar, manter, remover ou transformar, personalizando o resultado conforme seu objetivo.
 
-A demonstração apresenta a transformação de uma aula bruta em uma aula editada, a criação de um corte vertical com legendas, a ampliação de imagem por IA e a correção de cor de webcam.
+A proposta abrange criação de vídeos, edição personalizada, legendas, trilhas sonoras, seleção de trechos relevantes, adaptação de formatos e tratamento de imagens. Os recursos de cortes, legendas e tratamento visual já possuem demonstrações técnicas.
 
-**[Conheça o projeto e veja as demonstrações](edicao-de-video-e-imagem/)**
+**[Conheça o projeto e suas possibilidades](edicao-de-video-e-imagem/)**
 
 ## Experiência e desenvolvimento profissional
 
