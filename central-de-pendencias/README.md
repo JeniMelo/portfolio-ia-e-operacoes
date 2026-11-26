@@ -1,4 +1,24 @@
-# Central de Pendências: skill de demonstração
+# Central inteligente de demandas operacionais — estudo de caso
+
+Identifiquei um gargalo na minha rotina de operações: demandas, compromissos e evidências de entrega ficavam dispersos em mensagens de WhatsApp e reuniões. Desenvolvi uma automação para centralizar essas informações e acompanhar suas atualizações.
+
+## Sistema aplicado à rotina operacional
+
+A documentação da solução descreve leitura de mensagens sincronizadas em Supabase e de registros de reuniões recorrentes, com fontes alternativas de reunião e anotações de agenda quando disponíveis. Consultas SQL e scripts Python levantam candidatos; a análise por IA distingue ações concretas, responsáveis e evidências de conclusão, elimina duplicidades e classifica os itens em tarefas, pautas, projetos, acompanhamentos e decisões.
+
+O painel organiza demandas em **Comigo**, **Com os outros** e **Concluídos**, preserva contexto e origem, permite edição, baixa, exclusão e observações, e respeita decisões manuais nas atualizações agendadas. As fontes são consultadas em modo somente leitura.
+
+O benefício relatado é menor necessidade de conferência manual e maior visibilidade das demandas; não foi realizada medição formal de economia de tempo.
+
+## Versão pública demonstrativa
+
+A documentação abaixo descreve uma versão simplificada com dados fictícios, que trabalha com arquivos exportados e não se conecta aos sistemas operacionais reais. Não foram publicados os arquivos internos, identificadores de infraestrutura, conversas, links privados ou regras com dados de clientes e colaboradores.
+
+[Abrir painel demonstrativo](https://jenimelo.github.io/portfolio-ia-e-operacoes/central-de-pendencias/exemplos/saida-esperada/painel.html)
+
+---
+
+## Central de Pendências: skill de demonstração
 
 Skill para agentes de IA que lê as conversas de chat exportadas e as anotações de reunião de uma
 pessoa e monta uma central com o que pediram para ela, o que ela prometeu e o que ela pediu a
