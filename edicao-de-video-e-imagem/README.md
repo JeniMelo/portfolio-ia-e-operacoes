@@ -1,64 +1,34 @@
-# Sistema inteligente de edição audiovisual
+# Sistema inteligente de criação e edição audiovisual
 
-**IA aplicada à produção de conteúdo | Automação de processos | Claude Code**
+**Inteligência artificial • Personalização • Automação de conteúdo**
 
-## O desafio
+Um sistema inteligente de criação e edição audiovisual, desenvolvido para se adaptar a diferentes nichos, formatos de conteúdo e necessidades. A proposta é permitir que cada pessoa defina o que deseja criar, manter, remover ou transformar, personalizando o resultado conforme seu objetivo.
 
-Editar aulas, eliminar pausas, preparar cortes para redes sociais e corrigir imagens são atividades que podem consumir tempo das equipes de conteúdo.
+## O que o sistema propõe
 
-## A solução
+- Criar e editar vídeos, aulas, treinamentos, conteúdos educativos, institucionais e para redes sociais.
+- Reduzir aulas extensas, preservando os pontos importantes segundo os critérios definidos pelo usuário.
+- Remover pausas, erros, repetições ou quaisquer trechos indicados pelo usuário.
+- Inserir legendas, músicas e elementos audiovisuais conforme a necessidade.
+- Reaproveitar conteúdos em formatos e durações diferentes.
+- Aprimorar imagens, corrigir cores e tratar áudio.
 
-Desenvolvi um sistema local de edição audiovisual com Claude Code, Python e FFmpeg, reunindo recursos de edição, transcrição, reaproveitamento de conteúdo e tratamento de imagem.
+## Adaptável a cada nicho
 
-## Demonstração prática
+O sistema não se limita a um modelo fixo de edição. A proposta é adaptar as instruções e o fluxo de trabalho ao objetivo, público, formato e estilo desejados, seja para educação, marketing, comunicação empresarial ou criação de conteúdo.
 
-Os materiais abaixo são fictícios e foram preparados para demonstrar as funcionalidades sem expor conteúdo interno.
+## Recursos demonstrados
 
-### 01 — Edição de aulas
+![Comparação de realce de imagem](comparacao-zoom.png)
 
-| Antes | Depois |
-|---|---|
-| [Assistir à aula bruta](antes-aula-bruta.mp4) | [Assistir à aula editada](depois-aula-editada.mp4) |
-| 56,4 segundos | 28,8 segundos |
+Realce de imagem por IA, de 480 × 270 para 960 × 540.
 
-Remoção de esperas, pausas e falha técnica simulada, com normalização do áudio. A duração foi reduzida em aproximadamente 49% nesta demonstração — não se trata de uma medição de economia de tempo de trabalho.
+![Comparação de correção de cor](previa-mascara.png)
 
-### 02 — Reaproveitamento para redes sociais
+Correção de cor com máscara; o teste ainda apresenta um halo discreto.
 
-[**Assistir ao corte vertical com legendas**](depois-corte-vertical.mp4)
+## Tecnologias e estágio do projeto
 
-Vídeo de 10,9 segundos em formato 1080 × 1920, com destaque da palavra falada na legenda.
-
-### 03 — Melhoria de imagens com IA
-
-![Comparação visual do realce de imagem](comparacao-zoom.png)
-
-Ampliação de 480 × 270 para 960 × 540 com Real-ESRGAN.
-
-[Imagem original](antes-baixa-resolucao.png) · [Imagem aprimorada](depois-realce-ia-x2.png)
-
-### 04 — Correção de cor da webcam
-
-![Original, máscara e correção](previa-mascara.png)
-
-[Vídeo original](antes-webcam-ficticia.mp4) · [Vídeo corrigido](depois-cor-corrigida.mp4)
-
-A máscara permite tratar a pessoa separadamente do fundo. A demonstração ainda apresenta um halo discreto próximo à cabeça.
-
-## Valor para o negócio
-
-- Potencial de reduzir tarefas repetitivas na edição.
-- Reaproveitamento de aulas em diferentes formatos.
-- Padronização de etapas de produção audiovisual.
-
-Os benefícios operacionais ainda não foram quantificados em produção.
-
-## Tecnologias e validação
-
-Claude Code, Python, FFmpeg, faster-whisper e Real-ESRGAN.
-
-A transcrição orienta a seleção dos trechos, e os cortes são conferidos no áudio e nos quadros do vídeo.
-
-[Validação da abertura](validacao-inicio.png) · [Validação do encerramento](validacao-fim.png) · [Áudio antes](onda-antes.png) · [Áudio depois](onda-depois.png)
+Claude Code, Python, FFmpeg, faster-whisper e Real-ESRGAN. Os testes existentes demonstram edição de aulas, cortes verticais, legendas, normalização de áudio e tratamento visual. Criação de novos vídeos e inclusão de trilhas são possibilidades da proposta, ainda sem demonstração publicada. Os vídeos de teste anteriores foram preservados no repositório, mas retirados da apresentação principal para futura substituição por materiais com narração mais natural.
 
 [Voltar ao portfólio](../)
