@@ -2,20 +2,50 @@
 
 **Inteligência artificial • Personalização • Automação de conteúdo**
 
-Um sistema inteligente de criação e edição audiovisual, desenvolvido para se adaptar a diferentes nichos, formatos de conteúdo e necessidades. A proposta é permitir que cada pessoa defina o que deseja criar, manter, remover ou transformar, personalizando o resultado conforme seu objetivo.
+Uma solução audiovisual orientada por instruções, concebida para transformar ideias e materiais brutos em conteúdos personalizados. Em vez de impor um modelo fixo de edição, o sistema parte do objetivo do usuário: o que criar, quais informações preservar, o que eliminar, qual estilo adotar e como entregar o resultado. A proposta abrange diferentes tipos de vídeo, imagem e conteúdo, independentemente do nicho.
 
-## O que o sistema propõe
+## Fluxo proposto
 
-- Criar e editar vídeos, aulas, treinamentos, conteúdos educativos, institucionais e para redes sociais.
-- Reduzir aulas extensas, preservando os pontos importantes segundo os critérios definidos pelo usuário.
-- Remover pausas, erros, repetições ou quaisquer trechos indicados pelo usuário.
-- Inserir legendas, músicas e elementos audiovisuais conforme a necessidade.
-- Reaproveitar conteúdos em formatos e durações diferentes.
-- Aprimorar imagens, corrigir cores e tratar áudio.
+1. Definir objetivo, materiais e instruções.
+2. Criar ou transformar o conteúdo segundo os critérios escolhidos.
+3. Entregar versões adequadas ao formato e à finalidade.
 
-## Adaptável a cada nicho
+## Escopo da solução
 
-O sistema não se limita a um modelo fixo de edição. A proposta é adaptar as instruções e o fluxo de trabalho ao objetivo, público, formato e estilo desejados, seja para educação, marketing, comunicação empresarial ou criação de conteúdo.
+### Criação a partir de uma ideia
+
+Definir tema, roteiro, estrutura, textos, recursos visuais, música e formato para produzir um conteúdo do zero.
+
+### Edição de materiais existentes
+
+Cortar, reorganizar, combinar e adaptar vídeos, imagens e áudios conforme instruções específicas.
+
+### Curadoria de conteúdo
+
+Selecionar informações relevantes em aulas, reuniões, entrevistas ou treinamentos; remover assuntos, perguntas, pausas ou trechos definidos pelo usuário, preservando o contexto.
+
+### Personalização audiovisual
+
+Definir identidade visual, ritmo, transições, legendas, trilhas, enquadramento e tratamento de áudio e imagem.
+
+### Distribuição e reaproveitamento
+
+Transformar um material em versões completas, resumidas, cortes temáticos ou formatos horizontais e verticais para diferentes canais.
+
+### Adaptação ao negócio
+
+Configurar critérios de edição e produção de acordo com o nicho, público, finalidade e necessidades de cada equipe.
+
+## Exemplos de aplicação
+
+- **Educação:** Resumir uma aula mantendo os conceitos essenciais ou remover somente os assuntos solicitados.
+- **Marketing:** Criar peças de campanha e adaptar um vídeo para diferentes canais e públicos.
+- **Empresas:** Transformar treinamentos, apresentações e gravações internas em materiais objetivos.
+- **Criadores de conteúdo:** Reaproveitar entrevistas, podcasts e vídeos longos em cortes temáticos com identidade própria.
+
+## Valor para o negócio
+
+Potencial de reduzir retrabalho, padronizar entregas e ampliar o reaproveitamento de materiais. Benefícios ainda não medidos em produção.
 
 ## Recursos demonstrados
 
