@@ -19,9 +19,9 @@ Meu objetivo é conectar necessidades reais dos negócios a soluções práticas
 
 ### 01 — Sistema inteligente de criação e edição audiovisual
 
-Um sistema inteligente de criação e edição audiovisual, desenvolvido para se adaptar a diferentes nichos, formatos de conteúdo e necessidades. A proposta é permitir que cada pessoa defina o que deseja criar, manter, remover ou transformar, personalizando o resultado conforme seu objetivo.
+Uma solução audiovisual orientada por instruções, concebida para transformar ideias e materiais brutos em conteúdos personalizados. Em vez de impor um modelo fixo de edição, o sistema parte do objetivo do usuário: o que criar, quais informações preservar, o que eliminar, qual estilo adotar e como entregar o resultado. A proposta abrange diferentes tipos de vídeo, imagem e conteúdo, independentemente do nicho.
 
-A proposta abrange criação de vídeos, edição personalizada, legendas, trilhas sonoras, seleção de trechos relevantes, adaptação de formatos e tratamento de imagens. Os recursos de cortes, legendas e tratamento visual já possuem demonstrações técnicas.
+O escopo inclui criação, edição, curadoria, personalização e reaproveitamento audiovisual. Os exemplos de aulas e redes sociais representam aplicações, não limites do sistema.
 
 **[Conheça o projeto e suas possibilidades](edicao-de-video-e-imagem/)**
 
