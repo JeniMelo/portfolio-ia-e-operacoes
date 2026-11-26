@@ -1,25 +1,64 @@
-# Edição de vídeo e imagem com Claude Code
+# Sistema inteligente de edição audiovisual
 
-Desenvolvi um sistema local com Claude Code, Python e FFmpeg para editar aulas e reaproveitar trechos em redes sociais. Nesta demonstração, os slides, a voz e a webcam são fictícios.
+**IA aplicada à produção de conteúdo | Automação de processos | Claude Code**
 
-## De uma aula a dois formatos
+## O desafio
 
-| Material | Resultado |
+Editar aulas, eliminar pausas, preparar cortes para redes sociais e corrigir imagens são atividades que podem consumir tempo das equipes de conteúdo.
+
+## A solução
+
+Desenvolvi um sistema local de edição audiovisual com Claude Code, Python e FFmpeg, reunindo recursos de edição, transcrição, reaproveitamento de conteúdo e tratamento de imagem.
+
+## Demonstração prática
+
+Os materiais abaixo são fictícios e foram preparados para demonstrar as funcionalidades sem expor conteúdo interno.
+
+### 01 — Edição de aulas
+
+| Antes | Depois |
 |---|---|
-| [Aula bruta](antes-aula-bruta.mp4) | 56,4 segundos com espera inicial, pausas e uma falha técnica simulada |
-| [Aula editada](depois-aula-editada.mp4) | 28,8 segundos após os cortes, com áudio normalizado |
-| [Corte vertical para redes sociais](depois-corte-vertical.mp4) | 10,9 segundos em 1080 × 1920, com legenda que destaca a palavra falada |
+| [Assistir à aula bruta](antes-aula-bruta.mp4) | [Assistir à aula editada](depois-aula-editada.mp4) |
+| 56,4 segundos | 28,8 segundos |
 
-A transcrição local com faster-whisper orienta a seleção dos trechos. Os pontos de corte são conferidos no áudio e nos quadros do vídeo. Veja a [abertura](validacao-inicio.png), o [encerramento](validacao-fim.png) e a forma de onda [antes](onda-antes.png) e [depois](onda-depois.png).
+Remoção de esperas, pausas e falha técnica simulada, com normalização do áudio. A duração foi reduzida em aproximadamente 49% nesta demonstração — não se trata de uma medição de economia de tempo de trabalho.
 
-## Realce de imagem por IA
+### 02 — Reaproveitamento para redes sociais
 
-O Real-ESRGAN ampliou uma [arte de 480 × 270](antes-baixa-resolucao.png) para [960 × 540](depois-realce-ia-x2.png). A comparação mostra as letras ampliadas na mesma escala.
+[**Assistir ao corte vertical com legendas**](depois-corte-vertical.mp4)
 
-![Comparação entre ampliação bicúbica e realce por IA](comparacao-zoom.png)
+Vídeo de 10,9 segundos em formato 1080 × 1920, com destaque da palavra falada na legenda.
 
-## Correção de cor da webcam
+### 03 — Melhoria de imagens com IA
 
-Uma máscara separa a pessoa do fundo para corrigir o tom azulado da [webcam fictícia](antes-webcam-ficticia.mp4). No [vídeo corrigido](depois-cor-corrigida.mp4), ainda há um halo discreto próximo à cabeça.
+![Comparação visual do realce de imagem](comparacao-zoom.png)
 
-![Webcam original, máscara e correção de cor](previa-mascara.png)
+Ampliação de 480 × 270 para 960 × 540 com Real-ESRGAN.
+
+[Imagem original](antes-baixa-resolucao.png) · [Imagem aprimorada](depois-realce-ia-x2.png)
+
+### 04 — Correção de cor da webcam
+
+![Original, máscara e correção](previa-mascara.png)
+
+[Vídeo original](antes-webcam-ficticia.mp4) · [Vídeo corrigido](depois-cor-corrigida.mp4)
+
+A máscara permite tratar a pessoa separadamente do fundo. A demonstração ainda apresenta um halo discreto próximo à cabeça.
+
+## Valor para o negócio
+
+- Potencial de reduzir tarefas repetitivas na edição.
+- Reaproveitamento de aulas em diferentes formatos.
+- Padronização de etapas de produção audiovisual.
+
+Os benefícios operacionais ainda não foram quantificados em produção.
+
+## Tecnologias e validação
+
+Claude Code, Python, FFmpeg, faster-whisper e Real-ESRGAN.
+
+A transcrição orienta a seleção dos trechos, e os cortes são conferidos no áudio e nos quadros do vídeo.
+
+[Validação da abertura](validacao-inicio.png) · [Validação do encerramento](validacao-fim.png) · [Áudio antes](onda-antes.png) · [Áudio depois](onda-depois.png)
+
+[Voltar ao portfólio](../)
